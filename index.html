@@ -2,28 +2,100 @@
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="main.css"/>
+        <link rel="stylesheet" href="principal.css"/>
         <title>Discografía Pink Floyd</title>
     </head>
 
-    <body>
-        <header>
-            <h1>Pink Floyd</h1> 
-         </header>
+    <body>   
+        <header class="contenedor">
+            <nav>
+                <a href="#" id="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </a>
 
-        <nav class="menu">
-                <a href="historia.html"> Un poco de historia </a>
-                <a href="miembros.html"> Miembros </a>
-                <a href="albums.html"> Albums </a>
-        </nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">                    
+                </label>
 
-        <section>
-            <article></article>
+                <a id="enlace">
+                    <picture><img src="logo4.jpg" id="logo"></picture>
+                </a>
+                <section>
+                    <a class="active" href="#historia"> Un poco de historia </a>
+                    <a href="#integrantes"> Integrantes </a>
+                    <a href="#albums"> Albums </a>
+                    <a href="#contacto"> Contacto </a>
+                </section>
+            </nav>  
+        </header>
+
+
+        <section class="content" id="historia">
+            <article>
+                Pink Floyd nació en Londres en 1964. Sus miembros habían formado parte de diversos grupos 
+                de la escena underground de la capital británica. Inicialmente llamados
+                Tea Set, conformado por Roger Waters, Nick Mason, Rick Wright y Syd Barrett. Tuvieron gran influencia de 
+                The Beatles, The Byrds y el blues norteamericano. <br>
+                En 1967, grabarían su primer disco <i>The Piper at the Gates of Dawn</i>, inspirado en la novela 
+                El viento en los sauces, de Kenneth Graham; un trabajo muy innovador para la época, 
+                debido al uso de efectos de eco y teclados electrónicos y gracias al surrealismo de las letras de Barrett. 
+                Junto con algunas composiciones de The Beatles, Pink Floyd se considera el punto de arranque del 
+                rock psicodélico. Alcanzó un gran éxito en el Reino Unido, los que les permitió actuar como teloneros 
+                en un gira de Jimi Hendrix, que los lanzó en Estados Unidos.
+                A pesar de ese temprano éxito, Pink Floyd estuvo a punto de disolverse, a causa de la adicción al LSD de Barrett, 
+                que le impidió seguir actuando en directo. Después de muchas dudas, los miembros del grupo decidieron sustituirlo 
+                como vocalista. Para este puesto el elegido sería David Gilmour.
+                Su popularidad mundial creció en 1973 con la publicación del disco Dark side of the moon. En 1980 publicaron el que 
+                se convirtió en el disco más reputado del grupo, <i>The Wall</i>, que tres años más tarde inspiraría el filme animado, 
+                protagonizado por Bob Geldof.<br>
+                En 1983, y coincidiendo con el abandono de Waters, cuyo excesivo protagonismo había enrarecido la convivencia 
+                dentro del grupo, Pink Floyd se disolvió. Cuatro años más tarde, Mason, Wright y Gilmour se reunieron de nuevo, 
+                lo cual originó un proceso judicial entablado por Waters sobre la propiedad del nombre original. 
+                Resuelto el caso a favor de Gilmour y compañía, Pink Floyd regresó al mundo de la música con un disco 
+                que se convirtió en un éxito inmediato, <i>A momentary lapse of reason</i> (1987).
+
+            </article>
         </section>
 
-        <section></section>
+        <section class="miembros" id="integrantes">
+            <article class="clear-padding"> </article>
+            <article class="carta">
+                <picture><img src="roger.jpg" class="foto"></picture>
+                <h3>Roger Waters</h3>
+                <p>Bajo eléctrico, compositor y voz. Cofundador de la banda.</p>
+            </article>
+            <article class="carta">
+                <picture><img src="david.jpg" class="foto"></picture>
+                <h3>David Gilmour</h3>
+                <p>Guitarra, compositor y multiinstrumentista.</p>
+            </article>
+            <article class="carta">
+                <picture><img src="syd.jpg" class="foto"></picture>
+                <h3>Syd Barret</h3>
+                <p>Guitarra, compositor y voz. Líder de la banda.</p>
+            </article>
+            <article class="carta">
+                <picture><img src="richard.jpg" class="foto"></picture>
+                <h3>Richard Wright</h3>
+                <p>Teclados y voz. Cofundador de la banda.</p>
+            </article>
+            <article class="carta">
+                <picture><img src="nick.jpg" class="foto"></picture>
+                <h3>Nick Mason</h3>
+                <p>Batería y producción. Único miembro presente en cada uno de los álbumes de la banda.</p>
+            </article>
+            <article class="carta">
+                <picture><img src="bob.jpg" class="foto"></picture>
+                <h3>Bob Klose</h3>
+                <p>Guitarrista principal de <i>The Abdabs</i>, grupo precursor de Pink Floyd.</p>
+            </article>
+        </section>
 
-        <section class="form">
+        <section>
+            <article class="clear-padding"> </article>
+        </section>
+
+        <section id="contacto" class="form">
             <h2> Formulario de sugerencias discográficas: </h2>
             <p> 
                 <input class="controls" type="text" name="nombre" id="nombre" placeholder="Nombre"><br><br>
