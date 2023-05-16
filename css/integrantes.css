@@ -1,0 +1,15 @@
+.carta{
+    width: 31.5%;
+    float: left;
+    padding: 10px;
+    text-align: center;
+}
+.foto{
+    margin: 0 auto;
+    width: 120px;
+    background-color: #6991ac;
+    text-align: center;
+    border-radius: 125px;
+    margin-top: 3%;
+    padding: 1%;
+}

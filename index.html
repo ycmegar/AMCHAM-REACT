@@ -2,106 +2,102 @@
 <html lang="es">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="principal.css"/>
+        <link rel="stylesheet" href="css/principal.css">
         <title>Discografía Pink Floyd</title>
     </head>
 
     <body>   
-        <header class="contenedor">
-            <nav>
-                <a href="#" id="menu-icon">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">                    
-                </label>
-
-                <a id="enlace">
-                    <picture><img src="logo4.jpg" id="logo"></picture>
-                </a>
-                <section>
-                    <a class="active" href="#historia"> Un poco de historia </a>
-                    <a href="#integrantes"> Integrantes </a>
-                    <a href="#albums"> Álbumes de estudio </a>
-                    <a href="#contacto"> Contacto </a>
-                </section>
+        <header id="contenedor">
+            <a href="/">
+                <picture><img src="assets/logo4.jpg" alt="logo Pink Floyd" id="logo"></picture>
+            </a>
+            <nav id="menu-nav">                
+                <a class="active" href="#historia"> Un poco de historia </a>
+                <a href="#integrantes"> Integrantes </a>
+                <a href="#albums"> Álbumes de estudio </a>
+                <a href="#contacto"> Contacto </a>
             </nav>  
         </header>
 
-
-        <section class="content" id="historia">
-            <article>
-                Pink Floyd nació en Londres en 1964. Sus miembros habían formado parte de diversos grupos 
-                de la escena underground de la capital británica. Inicialmente llamados
-                Tea Set, conformado por Roger Waters, Nick Mason, Rick Wright y Syd Barrett. Tuvieron gran influencia de 
-                The Beatles, The Byrds y el blues norteamericano. <br>
-                En 1967, grabarían su primer disco <i>The Piper at the Gates of Dawn</i>, inspirado en la novela 
-                El viento en los sauces, de Kenneth Graham; un trabajo muy innovador para la época, 
-                debido al uso de efectos de eco y teclados electrónicos y gracias al surrealismo de las letras de Barrett. 
-                Junto con algunas composiciones de The Beatles, Pink Floyd se considera el punto de arranque del 
-                rock psicodélico. Alcanzó un gran éxito en el Reino Unido, los que les permitió actuar como teloneros 
-                en un gira de Jimi Hendrix, que los lanzó en Estados Unidos.
-                A pesar de ese temprano éxito, Pink Floyd estuvo a punto de disolverse, a causa de la adicción al LSD de Barrett, 
-                que le impidió seguir actuando en directo. Después de muchas dudas, los miembros del grupo decidieron sustituirlo 
-                como vocalista. Para este puesto el elegido sería David Gilmour.
-                Su popularidad mundial creció en 1973 con la publicación del disco Dark side of the moon. En 1980 publicaron el que 
-                se convirtió en el disco más reputado del grupo, <i>The Wall</i>, que tres años más tarde inspiraría el filme animado, 
-                protagonizado por Bob Geldof.<br>
-                En 1983, y coincidiendo con el abandono de Waters, cuyo excesivo protagonismo había enrarecido la convivencia 
-                dentro del grupo, Pink Floyd se disolvió. Cuatro años más tarde, Mason, Wright y Gilmour se reunieron de nuevo, 
-                lo cual originó un proceso judicial entablado por Waters sobre la propiedad del nombre original. 
-                Resuelto el caso a favor de Gilmour y compañía, Pink Floyd regresó al mundo de la música con un disco 
-                que se convirtió en un éxito inmediato, <i>A momentary lapse of reason</i> (1987).
-
-            </article>
+        <section id="historia">
+            <h2 class="display">Un poco de historia</h2>
+            <p>
+                    Pink Floyd nació en Londres en 1964. Sus miembros habían formado parte de diversos grupos de la escena 
+                    underground de la capital británica. Inicialmente llamados Tea Set, conformado por Roger Waters, Nick Mason, 
+                    Rick Wright y Syd Barrett. Tuvieron gran influencia de The Beatles, The Byrds y el blues norteamericano.
+                </p>
+                <p>
+                    En 1967, grabarían su primer disco <span class="cursiva">The Piper at the Gates of Dawn</span>, inspirado en la novela 
+                    El viento en los sauces, de Kenneth Graham; un trabajo muy innovador para la época, 
+                    debido al uso de efectos de eco y teclados electrónicos y gracias al surrealismo de las letras de Barrett. 
+                    Junto con algunas composiciones de The Beatles, Pink Floyd se considera el punto de arranque del 
+                    rock psicodélico. Alcanzó un gran éxito en el Reino Unido, los que les permitió actuar como teloneros 
+                    en un gira de Jimi Hendrix, que los lanzó en Estados Unidos.
+                </p>
+                <p>
+                    A pesar de ese temprano éxito, Pink Floyd estuvo a punto de disolverse, a causa de la adicción al LSD de Barrett, 
+                    que le impidió seguir actuando en directo. Después de muchas dudas, los miembros del grupo decidieron sustituirlo 
+                    como vocalista. Para este puesto el elegido sería David Gilmour.
+                    Su popularidad mundial creció en 1973 con la publicación del disco Dark side of the moon. En 1980 publicaron el que 
+                    se convirtió en el disco más reputado del grupo, <span class="cursiva">The Wall</span>, que tres años más tarde inspiraría el filme animado, 
+                    protagonizado por Bob Geldof.
+                </p>
+                <p>
+                    En 1983, y coincidiendo con el abandono de Waters, cuyo excesivo protagonismo había enrarecido la convivencia 
+                    dentro del grupo, Pink Floyd se disolvió. Cuatro años más tarde, Mason, Wright y Gilmour se reunieron de nuevo, 
+                    lo cual originó un proceso judicial entablado por Waters sobre la propiedad del nombre original. 
+                    Resuelto el caso a favor de Gilmour y compañía, Pink Floyd regresó al mundo de la música con un disco 
+                    que se convirtió en un éxito inmediato, <span class="cursiva">A momentary lapse of reason</span> (1987).
+                </p>                
         </section>
 
-        <section class="miembros" id="integrantes">
-            <article class="clear-padding"> </article>            
+        <section id="integrantes">
+            <h2 class="display">Integrantes</h2>
             <article class="carta">
-                <picture><img src="roger.jpg" class="foto"></picture>
+                <picture><img src="assets/roger.jpg" alt="Roger Waters" class="foto"></picture>
                 <h3>Roger Waters</h3>
-                <p>Bajo eléctrico, compositor y voz.<br>Cofundador de la banda.</p>
+                <p>Bajo eléctrico, compositor y voz.</p>
+                <p>Cofundador de la banda</p>
             </article>
             <article class="carta">
-                <picture><img src="david.jpg" class="foto"></picture>
+                <picture><img src="assets/david.jpg" alt="David Gilmour" class="foto"></picture>
                 <h3>David Gilmour</h3>
-                <p>Guitarra, compositor y<br>multiinstrumentista.</p>
+                <p>Guitarra, compositor y</p>
+                <p>multiinstrumentista</p>
             </article>
             <article class="carta">
-                <picture><img src="syd.jpg" class="foto"></picture>
+                <picture><img src="assets/syd.jpg" alt="Syd Barret" class="foto"></picture>
                 <h3>Syd Barret</h3>
-                <p>Guitarra, compositor y voz.<br>Líder de la banda.</p>
+                <p>Guitarra, compositor y voz.</p>
+                <p>Líder de la banda</p>
             </article>
             <article class="carta">
-                <picture><img src="richard.jpg" class="foto"></picture>
+                <picture><img src="assets/richard.jpg" alt="Richard Wright" class="foto"></picture>
                 <h3>Richard Wright</h3>
-                <p>Teclados y voz.<br>Cofundador de la banda.</p>
+                <p>Teclados y voz.</p>
+                <p>Cofundador de la banda</p>
             </article>
             <article class="carta">
-                <picture><img src="nick.jpg" class="foto"></picture>
+                <picture><img src="assets/nick.jpg" alt="Nick Mason" class="foto"></picture>
                 <h3>Nick Mason</h3>
-                <p>Batería y producción. Único miembro<br>presente en cada uno de los álbumes de la banda.</p>
+                <p>Batería y producción</p>
             </article>
             <article class="carta">
-                <picture><img src="bob.jpg" class="foto"></picture>
+                <picture><img src="assets/bob.jpg" alt="Bob Klose" class="foto"></picture>
                 <h3>Bob Klose</h3>
-                <p>Guitarrista principal de <i>The Abdabs</i>,<br>grupo precursor de Pink Floyd.</p>
+                <p>Guitarrista principal</p>
+                <p><span class="cursiva">The Abdabs,</span> precursor Pink Floyd</p>
             </article>
-        </section>
-
-        <section>
-            <article class="clear-padding"> </article>
         </section>
 
         <section id="albums">
+            <h2 id="albumtitle">Álbumes de estudio</h2>
             <article class="container">
-                <h2 id="albumtitle">Álbumes de estudio</h2>
-                <a class="products">
-                    <span class="product">
+                <h3 class="display">Lista de Discos</h3>
+                <ul class="products">
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/piper.jpg">
+                            <img src="albums/piper.jpg" alt="Piper at the Gates">
                         </picture>
                         <p class="name">The Piper at the Gates of Dawn, 1967</p>
                         <p class="stars">
@@ -110,10 +106,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/Saucerful.jpg">
+                            <img src="albums/Saucerful.jpg" alt="Saucerful of Secrets">
                         </picture>
                         <p class="name">A Saucerful of Secrets, 1968</p>
                         <p class="stars">
@@ -122,10 +118,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/ummagumma.jpg">
+                            <img src="albums/ummagumma.jpg" alt="Ummagumma">
                         </picture>
                         <p class="name">Ummagumma, 1969</p>
                         <p class="stars">
@@ -134,10 +130,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/Atom.jpeg">
+                            <img src="albums/Atom.jpeg" alt="Atom Heart">
                         </picture>
                         <p class="name">Atom Heart Mother, 1970</p>
                         <p class="stars">
@@ -146,10 +142,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/meddle.jpg">
+                            <img src="albums/meddle.jpg" alt="Meddle">
                         </picture>
                         <p class="name">Meddle, 1971</p>
                         <p class="stars">
@@ -158,10 +154,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/Obscured.jpg">
+                            <img src="albums/Obscured.jpg" alt="Obscured">
                         </picture>
                         <p class="name">Obscured by Clouds, 1972</p>
                         <p class="stars">
@@ -170,10 +166,10 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>
-                    <span class="product">
+                    </li>
+                    <li class="product">
                         <picture class="image">
-                            <img src="albums/dark2.jpg">
+                            <img src="albums/dark2.jpg" alt="The Dark Side">
                         </picture>
                         <p class="name">The Dark Side of the Moon, 1973</p>
                         <p class="stars">
@@ -182,33 +178,29 @@
                             <i class="fa-solid fa-star"></i>
                             <i class="fa-solid fa-star"></i>
                         </p>
-                    </span>               
-                </a>
+                    </li>               
+                </ul>
             </article>
         </section>
 
-        <section>
-            <article class="clear"> </article>
-        </section>
-
-
         <section id="contacto">
+            <h2 class="display">Contacto</h2>
             <article id="contact-form">
                 <h3 id="title-form">Contacto</h3>
-                <form action="">
-                    <p><label>Nombre</label>
-                        <input type="text" name="fullname"></p>
-                    <p><label>Email</label>
-                        <input type="email" name="email"></p>
-                    <p><label>Teléfono</label>
-                        <input type="tel" name="phone"></p>
-                    <p><label>Asunto</label>
-                        <input type="text" name="affair"></p>
-                    <p class="block"><label>Mensaje</label> 
-                        <textarea name="message" rows="3"></textarea></p>
-                    <p class="block">
+                <form action="form">
+                    <fieldset><label>Nombre</label>
+                        <input type="text" name="fullname"></fieldset>
+                    <fieldset><label>Email</label>
+                        <input type="email" name="email"></fieldset>
+                    <fieldset><label>Teléfono</label>
+                        <input type="tel" name="phone"></fieldset>
+                    <fieldset><label>Asunto</label>
+                        <input type="text" name="affair"></fieldset>
+                    <fieldset class="block"><label>Mensaje</label> 
+                        <textarea name="message" rows="3"></textarea></fieldset>
+                    <fieldset class="block">
                         <button>Enviar</button>
-                    </p>
+                    </fieldset>
                 </form>
             </article>
             <article id="contact-info">
@@ -223,28 +215,26 @@
             </article>
         </section>
         
-        <footer class="final">
-            <section class="icon-text">
-                <a href="index.html">Home</a><br>
-                <a href="#historia"> Historia </a><br>
-                <a href="#integrantes"> Integrantes </a><br>
-                <a href="#albums"> Albums </a><br>
+        <footer id="final">
+            <nav id="icon-text">
+                <a href="index.html">Home</a>
+                <a href="#historia"> Historia </a>
+                <a href="#integrantes"> Integrantes </a>
+                <a href="#albums"> Albums </a>
                 <a href="#contacto"> Contacto </a>
-            </section>
-            <section class="social">
-                <a href="mailto:yc.mesa03@gmail.com">
+            </nav>
+            <nav id="social">
+                <a href="mailto:yc.mesa03@gmail.com" target="_blank">
                     <i class="fa-solid fa-envelope"></i></a>
-                <a href="http://facebook.com/">
+                <a href="http://facebook.com/" target="_blank">
                     <i class="fa-brands fa-square-facebook"></i></a>
-                <a href="http://linkedin.com/">
+                <a href="http://linkedin.com/" target="_blank">
                     <i class="fa-brands fa-linkedin"></i></a>
-            </section>            
+            </nav>
         </footer>
         <footer id="second-footer">
-            <p>
-                <h3>Proyecto Práctica de BIT Bootcamp</h3>
-                <h4>Derechos Reservados &copy; 2023</h4>
-            </p>
-        </footer>
+            <h3>Proyecto Práctica de BIT Bootcamp</h3>
+            <h4>Derechos Reservados &copy; 2023</h4>
+        </footer>             
     </body>
 </html>

@@ -1,0 +1,32 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    background-color: #001b2e;
+    padding: 0 20vh;
+}
+header img{
+    height: 80px;
+    display: inline-block;
+    height: 70px;
+}
+#menu-nav{
+    float: right;
+    margin-right: 20px;
+}
+#menu-nav a{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    color: rgb(87, 144, 194);
+    font-size: 110%;
+    padding: 0 20px;
+}
+#menu-nav a.active, #menu-nav a:hover{
+    background: rgb(74, 74, 94);
+    color: #fff;
+    height: 80px;
+    transition: .5s;
+}

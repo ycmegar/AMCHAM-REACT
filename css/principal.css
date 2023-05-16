@@ -1,0 +1,56 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css");
+@import url("./header.css");
+@import url("./historia.css");
+@import url("./integrantes.css");
+@import url("./albums.css");
+@import url("./form.css");
+@import url("./footer.css");
+@import url("./medias.css");
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+h1{font-size: 3em;}
+h2{font-size: 2.2em;}
+h3{font-size: 1.5em;}
+p{font-size: 1.25em;}
+
+.cursiva{
+    font-style: italic;
+}
+body{
+    background: #b3cde4;
+}
+.display{
+    display: none;
+}
+
+
+
+/*(@media(min-width: 700px) {
+    body {
+        padding: 0 4em;
+    }
+    #contacto {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    #contacto > * {
+        padding: 2em;
+    }
+    #contact-info h4,
+    #contact-info ul,
+    #contact-info p {
+        text-align: left;
+    }
+}
+@media screen and (max-width:600px) {
+    #contenedor{
+        background: #fff;
+    }
+    
+}
