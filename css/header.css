@@ -4,7 +4,7 @@ header{
     align-items: center;
     width: 100%;
     height: 80px;
-    background-color: #001b2e;
+    background-color: #041421;
     padding: 0 20vh;
 }
 header img{
@@ -20,13 +20,13 @@ header img{
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
-    color: rgb(87, 144, 194);
+    color: #4c7273;
     font-size: 110%;
     padding: 0 20px;
 }
 #menu-nav a.active, #menu-nav a:hover{
-    background: rgb(74, 74, 94);
-    color: #fff;
+    background: #042630;
+    color: #d0d6d6;
     height: 80px;
     transition: .5s;
 }

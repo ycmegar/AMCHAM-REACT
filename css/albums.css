@@ -3,6 +3,9 @@
     flex-direction: column;
     color: white;
     font-family: sans-serif;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    font-size: 100%;
 }
 .container{
     width: auto;
@@ -13,9 +16,10 @@
 }
 #albumtitle{
     width: 100%;
+    margin-bottom: 3%;
     text-align: center;
     text-transform: capitalize;
-    color: #6991ac;
+    color: #4c7273;
 }
 .products{
     width: 100%;
@@ -35,7 +39,6 @@
     justify-content: space-between;
     padding: 15px 20px 20px;
     border-radius: 10px;
-    /*/transition: .3s;/*/
 }
 .image{
     width: 100%;
@@ -55,5 +58,5 @@
 }
 .stars{
     font-size: 1.3em;
-    color: rgb(127, 236, 250);
+    color: #86b9b0;
 }

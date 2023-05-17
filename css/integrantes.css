@@ -3,12 +3,21 @@
     float: left;
     padding: 10px;
     text-align: center;
+    color: #4c7273;
     height: 300px;
+    font-size: 110%;
+}
+.carta h3{
+    font-size: 110%;
+}
+.carta p{
+    color: #042630;
+    font-size: 110%;
 }
 .foto{
     margin: 0 auto;
     width: 120px;
-    background-color: #6991ac;
+    background-color: #041421;
     text-align: center;
     border-radius: 125px;
     margin-top: 3%;

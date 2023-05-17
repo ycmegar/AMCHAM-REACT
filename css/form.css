@@ -5,6 +5,8 @@
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     margin-left: auto;
     margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
     font: bold 14px verdana;
     padding: 1.5em;
 }
@@ -37,7 +39,7 @@
     border: none;
     background: none;
     outline: 0;
-    color: #fff;
+    color: #d0d6d6;
     border-bottom: 1px solid #6991ac;
 }
 
@@ -51,16 +53,18 @@
 #contact-form form button:hover,
 #contact-form form button:focus {
     background: #6991ac;
-    color: #fff;
+    color: #d0d6d6;
     transition: background-color 1s ease-out;
     outline: 0;
 }
 #contact-info{
-    background: #001b2e;
+    background: #4c7273;
+    color: #d0d6d6;
 }
-#contact-info h4, .contact-info ul, .contact-info p {
+#contact-info {
     text-align: center;
     margin: 0 0 1rem 0;
+    font-size: 17px;
 }
 #title-form{
     text-align: center;
